@@ -1,0 +1,15 @@
+`
+      <div class="bg-purple-900 rounded-lg shadow-lg p-4">
+        <!-- Foto del personaje -->
+        <img src="${character.image}" alt="Foto del personaje" class="w-16 h-16 rounded-full mx-auto mb-2">
+
+        <!-- Nombre del personaje -->
+        <h2 class="text-white text-xl font-semibold mb-2">${character.name}</h2>
+
+        <!-- Detalles del personaje -->
+        <div class="text-gray-300">
+            <p>Estado: <span class="text-green-400">${character.status}</span></p>
+            <p>Raza: ${character.species}</p>
+        </div>
+      </div>
+      `;
